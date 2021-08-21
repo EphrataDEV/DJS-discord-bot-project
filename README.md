@@ -1,1 +1,1 @@
-# basic-discord.js-bot
+# discord.js-bot
