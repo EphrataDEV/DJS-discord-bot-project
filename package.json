@@ -1,0 +1,22 @@
+{
+  "name": "basic-discord.js-bot-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joseph-developer1/basic-discord-bot-project.git"
+  },
+  "author": "Joseph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joseph-developer1/basic-discord-bot-project/issues"
+  },
+  "homepage": "https://github.com/Joseph-developer1/basic-discord-bot-project#readme",
+  "dependencies": {
+    "discord.js": "^13.2.0-dev.1629547386.d6e6244"
+  }
+}
