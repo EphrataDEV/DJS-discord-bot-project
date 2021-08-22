@@ -9,7 +9,7 @@ module.exports = new Command({
 	slashCommandOptions: [],
 	permission: "SEND_MESSAGES",
 	async run(message, args, client) {
-		const m = await message.reply(`Ping: ${client.ws.ping} ms.`);
+		const m = await message.send(`Ping: ${client.ws.ping} ms.`);
 
 		const msg = message instanceof Discord.CommandInteraction ? await message.fetchReply() : m;
 
